@@ -14,4 +14,4 @@ composer install
 Para abrir o drupal no navegador:
 
 drupal launch
-Depois de executar o drupal launche ira abrir essa pagina no seu navegador
+Depois de executar o drupal launch ira abrir essa pagina no seu navegador
