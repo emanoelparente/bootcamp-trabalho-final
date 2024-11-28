@@ -6,7 +6,7 @@ Composer: Gerenciador de dependências do PHP
 Instalação
 Clone o repositório:
 
-git clone https://github.com/maila520/bootcamp-trabalho-final-Maila.git
+git clone https://github.com/emanoelparente/bootcamp-trabalho-final.git
 Instale as dependências:
 
 cd bootcamp-trabalho-final-Maila
