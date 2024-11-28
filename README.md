@@ -9,7 +9,7 @@ Clone o repositório:
 git clone https://github.com/emanoelparente/bootcamp-trabalho-final.git
 Instale as dependências:
 
-cd bootcamp-trabalho-final-Maila
+cd bootcamp-trabalho-final
 composer install
 Para abrir o drupal no navegador:
 
