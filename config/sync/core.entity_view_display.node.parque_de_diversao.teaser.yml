@@ -1,0 +1,47 @@
+uuid: 58b89f90-6133-4e48-996f-8d3212400390
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.parque_de_diversao.body
+    - field.field.node.parque_de_diversao.field_atracoes_principais
+    - field.field.node.parque_de_diversao.field_categoria
+    - field.field.node.parque_de_diversao.field_horario_de_funcionamento
+    - field.field.node.parque_de_diversao.field_imagem_do_parque
+    - field.field.node.parque_de_diversao.field_localizacaoparque
+    - field.field.node.parque_de_diversao.field_nome_do_parque
+    - field.field.node.parque_de_diversao.field_preco_medio_do_ingresso
+    - field.field.node.parque_de_diversao.field_site_oficial
+    - node.type.parque_de_diversao
+  module:
+    - text
+    - user
+id: node.parque_de_diversao.teaser
+targetEntityType: node
+bundle: parque_de_diversao
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_atracoes_principais: true
+  field_categoria: true
+  field_horario_de_funcionamento: true
+  field_imagem_do_parque: true
+  field_localizacaoparque: true
+  field_nome_do_parque: true
+  field_preco_medio_do_ingresso: true
+  field_site_oficial: true
+  langcode: true

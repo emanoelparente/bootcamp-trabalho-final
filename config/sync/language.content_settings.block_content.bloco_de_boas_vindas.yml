@@ -1,0 +1,11 @@
+uuid: 2404dcba-ee3f-45ec-8403-a98c6924a6c7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.bloco_de_boas_vindas
+id: block_content.bloco_de_boas_vindas
+target_entity_type_id: block_content
+target_bundle: bloco_de_boas_vindas
+default_langcode: site_default
+language_alterable: false

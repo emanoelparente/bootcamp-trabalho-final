@@ -1,0 +1,21 @@
+uuid: 8bf0e8c8-61f9-419d-b3a4-2644f4605880
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_as_opcoes_de_data_estao_di
+    - node.type.hotel
+  module:
+    - datetime
+id: node.hotel.field_as_opcoes_de_data_estao_di
+field_name: field_as_opcoes_de_data_estao_di
+entity_type: node
+bundle: hotel
+label: 'As opções de data estão disponíveis'
+description: 'Clique na seta para baixo para exibir o calendário de pop-up para seleção mais fácil de data. Observação: essa função não funciona no Safari. Clique dentro do campo para expor o seletor de data.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

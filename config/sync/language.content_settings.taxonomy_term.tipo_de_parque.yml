@@ -1,0 +1,11 @@
+uuid: 82437c31-cbda-4d1b-9bc2-fbe7d2865278
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_de_parque
+id: taxonomy_term.tipo_de_parque
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_de_parque
+default_langcode: site_default
+language_alterable: false

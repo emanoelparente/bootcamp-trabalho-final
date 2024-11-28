@@ -1,0 +1,22 @@
+uuid: 4719d850-f063-41b1-9dd5-2a05153ce0b0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_atracoes_principais
+    - node.type.parque_de_diversao
+  module:
+    - text
+id: node.parque_de_diversao.field_atracoes_principais
+field_name: field_atracoes_principais
+entity_type: node
+bundle: parque_de_diversao
+label: 'Atrações principais'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

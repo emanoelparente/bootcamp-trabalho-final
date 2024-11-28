@@ -1,0 +1,23 @@
+uuid: 2d2f1b95-d6db-4c0a-96dc-0b77a4c62a32
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.bloco_de_boas_vindas
+    - field.field.block_content.bloco_de_boas_vindas.body
+  module:
+    - text
+id: block_content.bloco_de_boas_vindas.default
+targetEntityType: block_content
+bundle: bloco_de_boas_vindas
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

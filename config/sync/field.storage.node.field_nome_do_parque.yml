@@ -1,0 +1,21 @@
+uuid: 7ce3c87f-829e-45ea-beb1-c237599ab35d
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_nome_do_parque
+field_name: field_nome_do_parque
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+uuid: c422b78d-d08c-484b-9111-9edceb63d024
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 5pE_4hurqtIlZN3XDi7eTo5RG13BMG0Rh9HYlRI3h8U
+id: user.register
+label: Registro
+description: ''
+targetEntityType: user
+cache: true

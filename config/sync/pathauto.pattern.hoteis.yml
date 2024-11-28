@@ -1,0 +1,22 @@
+uuid: 34f82a4d-5a71-4bef-8c07-312a1e4a97c4
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: hoteis
+label: Hoteis
+type: 'canonical_entities:node'
+pattern: 'hoteis[node:title]'
+selection_criteria:
+  4e5eac9d-3483-4a9f-8b9d-ec432969d583:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 4e5eac9d-3483-4a9f-8b9d-ec432969d583
+    context_mapping:
+      node: node
+    bundles:
+      hotel: hotel
+selection_logic: and
+weight: -5
+relationships: {  }

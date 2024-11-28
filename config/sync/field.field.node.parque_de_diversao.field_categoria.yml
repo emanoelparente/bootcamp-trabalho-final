@@ -1,0 +1,29 @@
+uuid: 51edcacc-8b79-4d59-9ab0-2343158db9fc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.parque_de_diversao
+    - taxonomy.vocabulary.tipo_de_parque
+id: node.parque_de_diversao.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: parque_de_diversao
+label: Categoria
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_de_parque: tipo_de_parque
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

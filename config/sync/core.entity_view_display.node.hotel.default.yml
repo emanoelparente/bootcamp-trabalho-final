@@ -1,0 +1,40 @@
+uuid: c1525092-6803-440f-b7ad-be34bd711d5d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.hotel.body
+    - field.field.node.hotel.field_as_opcoes_de_data_estao_di
+    - node.type.hotel
+  module:
+    - datetime
+    - text
+    - user
+id: node.hotel.default
+targetEntityType: node
+bundle: hotel
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_as_opcoes_de_data_estao_di:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: 04efcab0-7e60-4518-b26a-4706589c8672
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_atracoes_principais
+field_name: field_atracoes_principais
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

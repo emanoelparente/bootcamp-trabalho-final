@@ -1,0 +1,13 @@
+uuid: 459c494a-506d-414a-bebc-372fbaeb5a92
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
+id: media_publish_action
+label: 'Publicar mídia'
+type: media
+plugin: 'entity:publish_action:media'
+configuration: {  }

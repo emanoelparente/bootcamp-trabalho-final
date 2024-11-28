@@ -1,0 +1,13 @@
+uuid: 5b89ebc3-cb8d-46b3-a96f-9ec34be2115e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: CsK6TseQ2DatEbZgbd30swOlZ28_HHwAESU2LvEnWq0
+id: media_unpublish_action
+label: 'Despublicar mídia'
+type: media
+plugin: 'entity:unpublish_action:media'
+configuration: {  }

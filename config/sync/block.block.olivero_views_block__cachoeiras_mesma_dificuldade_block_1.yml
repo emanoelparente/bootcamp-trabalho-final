@@ -1,0 +1,24 @@
+uuid: 3def317f-1131-4547-b8f0-a1e53b00411a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.cachoeiras_mesma_dificuldade
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__cachoeiras_mesma_dificuldade_block_1
+theme: olivero
+region: footer_bottom
+weight: -9
+provider: null
+plugin: 'views_block:cachoeiras_mesma_dificuldade-block_1'
+settings:
+  id: 'views_block:cachoeiras_mesma_dificuldade-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

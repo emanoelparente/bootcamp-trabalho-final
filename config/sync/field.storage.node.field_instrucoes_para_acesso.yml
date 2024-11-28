@@ -1,0 +1,19 @@
+uuid: a748f77b-fa4e-4f16-bd92-832062011ae2
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_instrucoes_para_acesso
+field_name: field_instrucoes_para_acesso
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

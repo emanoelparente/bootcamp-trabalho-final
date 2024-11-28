@@ -1,0 +1,19 @@
+uuid: 630e5b4e-b5eb-469e-ac8d-8f870bc92e74
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_e_mail
+id: contact_message.feedback.field_e_mail
+field_name: field_e_mail
+entity_type: contact_message
+bundle: feedback
+label: E-mail
+description: 'Informe seu melhor e-mail'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

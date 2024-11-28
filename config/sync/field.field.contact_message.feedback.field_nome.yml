@@ -1,0 +1,19 @@
+uuid: 2d0cce65-8baa-4fb6-a5be-96976232e43d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_nome
+id: contact_message.feedback.field_nome
+field_name: field_nome
+entity_type: contact_message
+bundle: feedback
+label: Nome
+description: 'Informe seu nome'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

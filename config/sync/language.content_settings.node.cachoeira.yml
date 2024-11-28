@@ -1,0 +1,11 @@
+uuid: 053a95cf-e0ee-4162-8cd7-cccac8fbcdcf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.cachoeira
+id: node.cachoeira
+target_entity_type_id: node
+target_bundle: cachoeira
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,9 @@
+uuid: 2cfee920-58bd-4f3f-a885-38d116076cd3
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Tipo de parque'
+vid: tipo_de_parque
+description: null
+weight: 0
+new_revision: false

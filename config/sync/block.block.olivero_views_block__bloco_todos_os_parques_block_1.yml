@@ -1,0 +1,24 @@
+uuid: cbec5391-b224-40ad-a814-7bdfaf99d12e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.bloco_todos_os_parques
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__bloco_todos_os_parques_block_1
+theme: olivero
+region: footer_bottom
+weight: -7
+provider: null
+plugin: 'views_block:bloco_todos_os_parques-block_1'
+settings:
+  id: 'views_block:bloco_todos_os_parques-block_1'
+  label: 'Últimos três parques'
+  label_display: visible
+  provider: views
+  views_label: 'Últimos três parques'
+  items_per_page: none
+visibility: {  }

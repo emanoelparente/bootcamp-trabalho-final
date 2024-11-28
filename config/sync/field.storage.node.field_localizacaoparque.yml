@@ -1,0 +1,20 @@
+uuid: fda43071-a15a-4075-b9ce-9e0d33eff984
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_localizacaoparque
+field_name: field_localizacaoparque
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

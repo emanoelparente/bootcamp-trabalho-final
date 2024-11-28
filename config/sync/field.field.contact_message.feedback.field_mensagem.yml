@@ -1,0 +1,19 @@
+uuid: fb123892-d450-4a53-8925-dbea032a6a7d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_mensagem
+id: contact_message.feedback.field_mensagem
+field_name: field_mensagem
+entity_type: contact_message
+bundle: feedback
+label: Mensagem
+description: 'Deixe sua mensagem, em breve entraremos em contato'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

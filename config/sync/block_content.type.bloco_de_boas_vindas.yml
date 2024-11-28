@@ -1,0 +1,8 @@
+uuid: 9acbe1ea-7053-4a53-8b71-506feea20a58
+langcode: pt-br
+status: true
+dependencies: {  }
+id: bloco_de_boas_vindas
+label: 'Bloco de boas vindas'
+revision: false
+description: 'Bem vinda(a) ao Guia da cidade de Londres! Descubra Londres aqui.'

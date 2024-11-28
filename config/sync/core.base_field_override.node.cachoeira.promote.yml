@@ -1,0 +1,22 @@
+uuid: 844a52f6-43ec-464e-8a26-59c50bd36216
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.cachoeira
+id: node.cachoeira.promote
+field_name: promote
+entity_type: node
+bundle: cachoeira
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desligado
+field_type: boolean

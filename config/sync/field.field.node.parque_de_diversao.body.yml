@@ -1,0 +1,24 @@
+uuid: e60ec57b-d66a-434c-8313-81618bb5e90c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.parque_de_diversao
+  module:
+    - text
+id: node.parque_de_diversao.body
+field_name: body
+entity_type: node
+bundle: parque_de_diversao
+label: Descrição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

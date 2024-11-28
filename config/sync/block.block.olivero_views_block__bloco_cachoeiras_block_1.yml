@@ -1,0 +1,24 @@
+uuid: db61da45-3711-49ed-a732-49a3f4c123a1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.bloco_cachoeiras
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__bloco_cachoeiras_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:bloco_cachoeiras-block_1'
+settings:
+  id: 'views_block:bloco_cachoeiras-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 4c1ba01c-abde-4206-a75b-ccc3e8b7448c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.bloco_de_boas_vindas
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.bloco_de_boas_vindas.body
+field_name: body
+entity_type: block_content
+bundle: bloco_de_boas_vindas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

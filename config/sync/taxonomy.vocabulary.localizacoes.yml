@@ -1,0 +1,9 @@
+uuid: faac98a4-3543-40e4-9a6c-9ee7d0fe91e2
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Região
+vid: localizacoes
+description: null
+weight: 0
+new_revision: false

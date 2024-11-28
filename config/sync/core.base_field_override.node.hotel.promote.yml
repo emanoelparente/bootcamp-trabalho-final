@@ -1,0 +1,22 @@
+uuid: 7f7368bb-2a39-413f-bdf2-6a1d19fd9965
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.promote
+field_name: promote
+entity_type: node
+bundle: hotel
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desligado
+field_type: boolean

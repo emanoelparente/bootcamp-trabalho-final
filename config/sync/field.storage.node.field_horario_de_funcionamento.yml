@@ -1,0 +1,21 @@
+uuid: d57e6317-a47c-46f3-86f8-a45a3cac78f9
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_horario_de_funcionamento
+field_name: field_horario_de_funcionamento
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
